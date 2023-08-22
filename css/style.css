@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fdf2e9;
+  height: 9.6.rem;
+  align-items: center;
+  padding: 0 4.8rem;
+}
+
+.logo img {
+  cursor: pointer;
+  height: 2.2rem;
+}
+
+nav {
+  max-width: auto;
+  height: auto;
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+nav li {
+  list-style-type: none;
+}
+
+nav li a {
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #e67e22;
+}
+
+.btn-1 {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-1:hover {
+  background-color: #d66807;
+}
+
+/* HERO SECTION */
+
+#section-hero .hero {
+  margin: 0;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero {
+  /* max-width: 130rem; */
+  /* height: 100vh; */
+  display: flex;
+  background-color: #fdf2e9;
+  padding: 80px 200px;
+  margin-right: 0;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 00;
+  line-height: 1.05;
+  color: #333;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.5;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 40px;
+}
+
+.btn {
+  max-width: 250px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 18px 45px;
+  border-radius: 9px;
+  background-color: #e67e22;
+  text-decoration: none;
+  display: block;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #333;
+}
+
+.btn:hover {
+  background-color: #d66807;
+  cursor: pointer;
+}
+
+.btn-white:hover {
+  background-color: #bdb9b9;
+  box-shadow: inset 0 0 0 2px #fff;
+  cursor: pointer;
+}
