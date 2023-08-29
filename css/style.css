@@ -441,3 +441,68 @@ nav li a:visited {
   border-bottom: none;
   color: #d66807;
 }
+/* testimonials section */
+
+#testimonials {
+  padding: 4.6rem 0;
+}
+
+.testimonials {
+  background-color: #fdf2e9;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.testimonials-container {
+  padding: 9.6rem;
+}
+
+.testimonials-container h3 {
+  font-size: 1.6rem;
+  color: #e67e22;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  margin-bottom: 1.6rem;
+}
+
+.review-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.review-item {
+  width: calc(50% - 10px); /* Širina div-a uzimajući u obzir razmak */
+  margin-bottom: 20px; /* Razmak između redova */
+  padding: 10px;
+}
+
+.review-item p {
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.name-customers {
+  color: #b8b7b7;
+}
+
+.testimonial {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-container {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.6rem;
+  gap: 1.6rem;
+}
+
+.gallery-container img {
+  overflow: hidden;
+  width: calc(25% - 10px);
+  transition: all 0.4s;
+}
