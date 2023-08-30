@@ -519,8 +519,9 @@ nav li a:visited {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 6.4rem;
   margin-top: 10rem;
+  margin-bottom: 4.8rem !important;
 }
 
 .plan-headings {
@@ -595,4 +596,18 @@ nav li a:visited {
   background-color: #ffd43b;
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
+}
+
+.message {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message p {
+  font-size: 1.8rem;
+  margin-bottom: 9.6rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
 }
