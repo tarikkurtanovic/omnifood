@@ -333,7 +333,7 @@ nav li a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 70px;
   margin-top: 12rem;
 }
 
@@ -443,19 +443,15 @@ nav li a:visited {
 }
 /* testimonials section */
 
-#testimonials {
-  padding: 4.6rem 0;
-}
-
 .testimonials {
   background-color: #fdf2e9;
   display: flex;
-  gap: 50px;
   align-items: center;
 }
 
 .testimonials-container {
   padding: 9.6rem;
+  max-width: 55%;
 }
 
 .testimonials-container h3 {
@@ -471,38 +467,55 @@ nav li a:visited {
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  margin-bottom: 2rem;
 }
+
 .review-item {
-  width: calc(50% - 10px); /* Širina div-a uzimajući u obzir razmak */
-  margin-bottom: 20px; /* Razmak između redova */
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
   padding: 10px;
 }
 
 .review-item p {
-  font-size: 2rem;
+  font-size: 1.7rem;
   line-height: 2;
 }
 
 .name-customers {
-  color: #b8b7b7;
+  color: #6f6f6f;
+  margin-top: 1.5rem;
 }
 
 .testimonial {
+  text-align: start;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .gallery-container {
-  align-items: flex-start;
+  max-width: 45%;
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
-  padding: 1.6rem;
   gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-image {
+  overflow: hidden;
+  max-width: calc(33% - 10px);
 }
 
 .gallery-container img {
+  display: block;
   overflow: hidden;
-  width: calc(25% - 10px);
+  width: 100%;
+  height: auto;
   transition: all 0.4s;
+  border-radius: 10px;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.1);
 }
