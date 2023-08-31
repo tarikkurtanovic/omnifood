@@ -486,7 +486,6 @@ nav li a:visited {
   width: 100%;
   height: auto;
   transition: all 0.4s;
-  border-radius: 10px;
 }
 
 .gallery-container img:hover {
@@ -610,4 +609,58 @@ nav li a:visited {
   font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;
+}
+
+.taxes-wrapper {
+  max-width: 120rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  gap: 6.4rem;
+}
+
+.iconss {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.article-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.article-p {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.article {
+  position: relative;
+}
+
+.iconss {
+  max-width: 2.4rem;
+  color: #e67e22;
+  margin-bottom: 4rem;
+}
+
+.iconss::after {
+  width: 27%;
+  padding-bottom: 27%;
+  background-color: #fae5d3;
+  z-index: -1;
+}
+
+.iconss::before,
+.iconss::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  transform: translate(-50%, -50%);
 }
