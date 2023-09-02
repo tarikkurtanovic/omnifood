@@ -85,10 +85,7 @@ nav li a:visited {
 
 .section-hero {
   background-color: #fdf2e9;
-}
-
-.section-hero .hero {
-  margin: 0;
+  padding: 4.8rem 0 9.6rem 0;
 }
 
 .hero-img {
@@ -96,11 +93,12 @@ nav li a:visited {
 }
 
 .hero {
-  max-width: 200rem;
-  display: flex;
-  padding: 14rem 30rem;
+  max-width: 130rem;
+  padding: 0 3.2rem;
   margin: 0 auto;
-  gap: 15rem;
+  display: flex;
+  align-items: center;
+  gap: 9.6rem;
 }
 
 .heading-primary {
@@ -201,7 +199,7 @@ nav li a:visited {
 .logos {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 7.4rem;
   height: 4rem;
 }
 
@@ -259,7 +257,7 @@ nav li a:visited {
 
 .item {
   flex: 1;
-  padding: 6rem;
+  padding: 6rem 0;
 }
 
 .item-text {
@@ -432,8 +430,8 @@ nav li a:visited {
 }
 
 .testimonials-container {
-  padding: 9.6rem;
-  max-width: 55%;
+  padding: 4.6rem;
+  /* max-width: 55%; */
 }
 
 .review-item img {
@@ -468,8 +466,8 @@ nav li a:visited {
 
 .gallery-container {
   max-width: 45%;
-  align-items: center;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1.6rem;
   padding: 1.6rem;
