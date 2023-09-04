@@ -79,11 +79,15 @@
   }
 
   .testimonials-container {
-    padding: 9.6rem 3.2rem;
+    padding: 1.6rem 2.2rem;
   }
 
   .meal-content {
     padding: 2rem 3rem 3rem 3rem;
+  }
+
+  .gallery-image {
+    flex-basis: calc(50% - 10px); /* Change the width to 50% for 2 rows */
   }
 
   .headings {
@@ -97,7 +101,7 @@
   }
 
   .taxes-wrapper {
-    gap: 5rem;
+    gap: 2rem;
   }
 
   .iconss {
@@ -132,5 +136,98 @@
 
   .ctn2 {
     gap: 2rem;
+  }
+}
+
+/* Below 944px (TABLETS) */
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .hero {
+    display: block;
+    padding: 0 10rem;
+    /* gap:6rem; */
+  }
+  .hero-img {
+    width: 60%;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-img-box {
+    margin-top: 6.4rem;
+  }
+
+  .buttons {
+    align-items: center;
+    justify-content: center;
+  }
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+
+  .testimonials {
+    display: block;
+  }
+
+  .gallery {
+    padding: 0;
+  }
+
+  .gallery-container {
+    max-width: 100%;
+    gap: 0.9rem;
+    justify-content: center;
+    /* padding: 2rem 0; */
+  }
+
+  .gallery-image {
+    flex-basis: calc(16% - 10px);
+  }
+
+  .heading-primary {
+    text-align: center;
+  }
+  .h3 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .iconss::after {
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: #fae5d3;
+    z-index: -1;
+  }
+
+  .iconss::before,
+  .iconss::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 14%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+  }
+
+  .cta {
+    /* 3/5 = 60%+ 2/5 = 40% */
+    grid-template-columns: 3fr 2fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .btn--form1 {
+    margin-top: 1.2rem;
   }
 }

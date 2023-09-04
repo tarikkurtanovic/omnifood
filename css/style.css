@@ -259,6 +259,7 @@ nav li a:visited {
 }
 .row {
   display: flex;
+  gap: 4rem;
 }
 
 .item {
@@ -474,10 +475,14 @@ nav li a:visited {
   justify-content: space-between;
 }
 
+.gallery {
+  padding: 1.6rem;
+}
+
 .gallery-container {
   max-width: 45%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 1.6rem;
   padding: 1.6rem;
@@ -485,7 +490,8 @@ nav li a:visited {
 
 .gallery-image {
   overflow: hidden;
-  max-width: calc(33% - 10px);
+  /* max-width: calc(33% - 10px); */
+  flex-basis: calc(33% - 10px);
 }
 
 .gallery-container img {
