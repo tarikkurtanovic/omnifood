@@ -80,6 +80,7 @@
 
   .testimonials-container {
     padding: 9.6rem 3.2rem;
+  }
 
   .meal-content {
     padding: 2rem 3rem 3rem 3rem;
@@ -88,6 +89,7 @@
   .headings {
     justify-content: center;
     text-align: center;
+    margin: 0 auto;
   }
 
   .container {
