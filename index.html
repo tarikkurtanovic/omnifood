@@ -19,20 +19,25 @@
   </head>
 
   <body>
-    <header>
-      <div class="logo">
-        <img src="/img/omnifood-logo.png" alt="omnifood-logo" />
-      </div>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+      </a>
 
-      <nav>
-        <ul class="nav">
-          <li><a href="#how-it-works"">How it works</a></li>
-          <li><a href="#">Meals</a></li>
-          <li><a href="#">Testimonials</a></li>
-          <li><a href="#">Pricing</a></li>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">How it works</a></li>
+          <li><a class="main-nav-link" href="#">Meals</a></li>
+          <li><a class="main-nav-link" href="#">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
         </ul>
-        <button class="btn btn-1">Try for free</button>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -435,8 +440,8 @@
       <div class="container ctn2">
 
         <div class="logo-col">
-          <a  class="logo footer-logo" href="#">
-            <img alt="Omnifood logo" src="img/omnifood-logo.png" />
+          <a  class=" footer-logo" href="#">
+            <img alt="Omnifood logo" class="logo" src="img/omnifood-logo.png" />
           </a>
 
           <ul class="social-links">
