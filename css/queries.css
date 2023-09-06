@@ -331,4 +331,116 @@
     align-items: center;
     padding-left: 10rem;
   }
+
+  .iconss::after {
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: #fae5d3;
+    z-index: -1;
+  }
+
+  .iconss::before,
+  .iconss::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 11%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+  }
+  .iconss {
+    font-size: 2.5rem;
+  }
+
+  #select-where {
+    font-size: 1.2rem;
+  }
+
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
+  }
+
+  /* .grid {
+    display: grid;
+    column-gap: 3.4rem;
+    row-gap: 3.6rem;
+  } */
+}
+
+@media (max-width: 34em) {
+  /* Below 544px (phones) */
+
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .heading-primary {
+    font-size: 4.8rem;
+  }
+
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .hero-description {
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+  }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .buttons {
+    padding: 0 1rem;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    margin-bottom: 1rem;
+    padding: 2.4rem 1.6rem;
+  }
+
+  .logos img {
+    height: 1.2rem;
+  }
+
+  #how-it-works {
+    padding: 2.3rem 0;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .meals-wrapper {
+    display: block;
+    justify-content: center;
+  }
+  .card {
+    margin-bottom: 4.8rem;
+  }
+  .pricing-plan {
+    display: block;
+  }
+  .starter {
+    margin-bottom: 4.8rem;
+  }
+  .taxes-wrapper {
+    display: block;
+  }
 }
