@@ -11,10 +11,16 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
+
+    <script defer src="script.js"></script>
     <title>OMNIFOOD</title>
   </head>
 
@@ -26,11 +32,11 @@
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">How it works</a></li>
-          <li><a class="main-nav-link" href="#">Meals</a></li>
-          <li><a class="main-nav-link" href="#">Testimonials</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+          <li><a class="main-nav-link" href="#how-it-works">How it works</a></li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
         </ul>
       </nav>
 
@@ -53,8 +59,8 @@
                 nutritional needs.
               </p>
               <div class="buttons">
-              <a href="#" class="btn">Start eating well</a>
-              <a href="#" class="btn btn-white">Learn more &darr;</a>
+              <a href="#cta" class="btn">Start eating well</a>
+              <a href="#how-it-works" class="btn btn-white">Learn more &darr;</a>
             </div>
 
               <div class="delivered-meals">
@@ -281,7 +287,7 @@
       </section>
 
       <!-- PRICING SECTION -->
-      <section class="pricing-section">
+      <section class="pricing-section" id="pricing">
 
         <div class="headings">
         <h3 class="h3">pricing</h3>
@@ -372,7 +378,7 @@
 
       <!-- CTA-SECTION -->
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -462,7 +468,7 @@
           </ul>
 
           <p class="copyright">
-            Copyright &copy; 2027 by Omnifood, Inc. All rights reserved.
+            Copyright &copy; <span class="year">2027</span> by Omnifood, Inc. All rights reserved.
           </p>
         </div>
 
@@ -514,8 +520,7 @@
     </footer>
 
     
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   
   </body>
 
 
